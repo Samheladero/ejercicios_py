@@ -1,8 +1,7 @@
-# Solicitar el valor de n
-n = float(input("Introduce el valor de n: "))
+n = float(input("Ingrese el valor de n: "))
 
-# Evaluar la expresión 1/n
-resultado = 1 / n
-
-# Mostrar el resultado
-print("El resultado de la expresión 1/n es: ",resultado)
+if n == 0:
+    print("Error: División entre cero")
+else:
+    resultado = 1 / n
+    print("El resultado de 1/", n, " es: ", resultado)
